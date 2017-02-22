@@ -1,0 +1,2 @@
+*.als filter=gzip
+*.als diff=gzip

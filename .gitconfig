@@ -1,0 +1,6 @@
+[filter "gzip"]
+    smudge = gunzip -f -S als
+    clean = gzip -c
+[diff "gzip"]
+    textconv = gunzip -f -S als
+    binary = true
